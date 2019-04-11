@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-        var a = parseInt(prompt("Input quantity inches of display", "1"))
-        var b = parseInt( prompt("Input quantity of elements", "1"))
-        var c = parseInt (a/b)
-        alert (c)
+        //За умови, що зп сім'ї менша ніж прожитковий мінімум
+        var a = parseFloat(prompt("Input salary amount per mounth", "0"))
+        var b = parseFloat(prompt("Input living minimum amount per mounth", "0"))
+        var c = b - a
+        alert(c)
     </script>
 </head>
 
