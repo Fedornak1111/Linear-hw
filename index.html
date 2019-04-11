@@ -8,10 +8,18 @@
     <title>Document</title>
     <script>
         //За умови, що зп сім'ї менша ніж прожитковий мінімум
-        var a = parseFloat(prompt("Input salary amount per mounth", "0"))
-        var b = parseFloat(prompt("Input living minimum amount per mounth", "0"))
-        var c = b - a
-        alert(c)
+        var a = parseFloat(prompt("Input the cost of product per one  of first type", "0"))
+        var b = parseFloat(prompt("Input the cost of product per one  of second type", "0"))
+        var c = parseInt(prompt("Input quantity of products the first type", "0"))
+        var d = parseInt(prompt("Input quantity of products the second type", "0"))
+        var e = parseFloat(a*c)
+        var j = parseFloat(b*d)
+        var g = parseFloat(e+j)
+        alert("The total cost of firt type = " + parseFloat(e))
+        alert("The total cost of second type = " + parseFloat(j))
+        alert("You have to pay = " + parseFloat(g))
+
+
     </script>
 </head>
 
