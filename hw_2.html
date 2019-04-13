@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        //За умови, що зп сім'ї менша ніж прожитковий мінімум
+        var a = parseFloat(prompt("Input family month income", "0"))
+        var b = parseFloat(prompt("Input  month living minimum", "0"))
+        if (a < b) {
+            var c = b - a
+            alert("Your social help income will be " + c)
+        }
+        else if (a = b) {
+            alert("Your pretending for a social help will be reviewed individualy")
+        }
+        else {
+            alert("You can`n pretend for a social help")
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
